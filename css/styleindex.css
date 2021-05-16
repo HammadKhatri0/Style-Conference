@@ -1,0 +1,139 @@
+body{
+	background-color: #293f50;
+	color: #888; 
+	font-family: 'Roboto Slab', serif;
+}
+
+/*-----------------------------2nd para--------------------------*/
+
+.hero {
+	clear: both;
+	text-align: center;
+	color: #fff;
+    line-height: 44px;
+    padding: 22px 80px 5px 80px;
+    text-align: center;
+}
+
+.hero h2 {
+	line-height: 44px;
+	font-size: 36px;
+	font-weight: 200; 
+}
+
+.hero p {
+    font-size: 24px;
+    font-weight: 100;
+}
+
+#button {
+	border-radius: 5px;
+	margin: 10px 20px;
+	margin-bottom: 80px;
+	padding: 18px 40px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 400;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    font-size: 14px;
+    width: 25%;
+    text-align: center;
+    background: #293f50;
+    border: 1px solid #fff;
+    height: 60px;
+    vertical-align: bottom;
+}
+
+#second a:hover {
+	text-decoration: none;
+	background-color: #fff;
+	color: #648880;
+}
+
+/*---------------3rd Para------------------*/
+
+.doc {
+	float: left;
+	background: #fff;
+    padding: 55px 33px 33px 33px;
+    width: 100%
+}
+.teaser {
+	padding: 10px 20px;
+}
+
+.teaser a:hover {
+	text-decoration: none;
+}
+
+img {
+	margin-bottom: 22px;
+	border-radius: 5px;
+}
+
+p, h1, h3, h4, h5 {
+	margin-bottom: 22px;
+}
+
+h2 {
+    font-size: 24px;
+    line-height: 44px;
+    color: #648880;
+}
+
+h3 {
+	font-size: 21px;
+	color: #648880;
+	font-weight: 50;
+}
+
+h4 {
+	color: #648880;
+	font-size: 18px;
+}
+
+h5 {
+    color: #a9b2b9;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+/*---------------Form------------------*/
+
+.form {
+	float: right;
+}
+
+.btn {
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 400;
+    letter-spacing: .5px;
+    margin: 5px 20px;
+    text-transform: uppercase;
+    border: 0;
+    background: #648880;
+    padding: 11px 30px;
+    font-size: 14px;
+}
+
+fieldset {
+	width: 100%;
+	margin: 10px;
+    padding: 10px;
+    border: 2px groove threedface;
+}
+
+label {
+    color: #648880;
+    cursor: pointer;
+    font-weight: 400;
+    padding: 10px 0 0 0;
+}
+
+input {
+	width: 100%;
+}
