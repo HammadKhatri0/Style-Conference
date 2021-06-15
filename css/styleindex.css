@@ -1,47 +1,51 @@
+html {
+    font-size: 16px;
+}
+
 body{
 	background-color: #293f50;
 	color: #888; 
 	font-family: 'Roboto Slab', serif;
+    box-sizing: border-box;
 }
 
-/*-----------------------------2nd para--------------------------*/
+/*-----------------------------2nd part--------------------------*/
 
 .hero {
 	clear: both;
 	text-align: center;
 	color: #fff;
-    line-height: 44px;
-    padding: 22px 80px 5px 80px;
+    line-height: 2.75rem;
+    padding: 1.3rem 5rem 5rem 5rem;
     text-align: center;
 }
 
 .hero h2 {
-	line-height: 44px;
-	font-size: 36px;
+	line-height: 2.75rem;
+	font-size: 2.25rem;
 	font-weight: 200; 
 }
 
 .hero p {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 100;
 }
 
 #button {
-	border-radius: 5px;
-	margin: 10px 20px;
-	margin-bottom: 80px;
-	padding: 18px 40px;
+	border-radius: 0.3rem;
+	margin: 0.6rem 1.2rem;
+	padding: 1.1rem 2.5rem;
     color: #fff;
     cursor: pointer;
     font-weight: 400;
-    letter-spacing: .5px;
+    letter-spacing:0.03rem;
     text-transform: uppercase;
-    font-size: 14px;
-    width: 25%;
+    font-size: 0.8rem;
+    width: 15vw;
     text-align: center;
     background: #293f50;
-    border: 1px solid #fff;
-    height: 60px;
+    border: 0.06rem solid #fff;
+    height: 7.5vh;
     vertical-align: bottom;
 }
 
@@ -51,16 +55,16 @@ body{
 	color: #648880;
 }
 
-/*---------------3rd Para------------------*/
+/*---------------3rd Part------------------*/
 
 .doc {
-	float: left;
 	background: #fff;
-    padding: 55px 33px 33px 33px;
-    width: 100%
+    padding: 3.4rem 2rem 2rem 2rem;
+    width: 100vw;
 }
+
 .teaser {
-	padding: 10px 20px;
+	padding: 0.6rem 1.2rem;
 }
 
 .teaser a:hover {
@@ -68,72 +72,72 @@ body{
 }
 
 img {
-	margin-bottom: 22px;
-	border-radius: 5px;
+	margin-bottom: 1.3rem;
+	border-radius: 0.3rem;
+    width: auto;
 }
 
 p, h1, h3, h4, h5 {
-	margin-bottom: 22px;
+	margin-bottom: 1.3rem;
 }
 
 h2 {
-    font-size: 24px;
-    line-height: 44px;
+    font-size: 1.5rem;
+    line-height: 2.75;
     color: #648880;
 }
 
 h3 {
-	font-size: 21px;
+	font-size: 1.3rem;
 	color: #648880;
 	font-weight: 50;
 }
 
 h4 {
 	color: #648880;
-	font-size: 18px;
+	font-size: 1.1rem;
 }
 
 h5 {
     color: #a9b2b9;
-    font-size: 14px;
+    font-size: 0.8rem;
     font-weight: 400;
     text-transform: uppercase;
 }
 
-/*---------------Form------------------*/
-
-.form {
-	float: right;
+@media (min-width: 1200px) {
+    #button {
+        height: 9vh;
+        width: 17vw;
+    }
 }
 
-.btn {
-    border-radius: 5px;
-    color: #fff;
-    cursor: pointer;
-    font-weight: 400;
-    letter-spacing: .5px;
-    margin: 5px 20px;
-    text-transform: uppercase;
-    border: 0;
-    background: #648880;
-    padding: 11px 30px;
-    font-size: 14px;
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    html {
+        font-size: 12px;
+    }
 }
 
-fieldset {
-	width: 100%;
-	margin: 10px;
-    padding: 10px;
-    border: 2px groove threedface;
+@media (min-width: 768px) and (max-width: 991px) {
+    html {
+        font-size: 10px;
+    }
+     #button {
+        margin: auto;
+    }
 }
 
-label {
-    color: #648880;
-    cursor: pointer;
-    font-weight: 400;
-    padding: 10px 0 0 0;
-}
-
-input {
-	width: 100%;
+@media (max-width: 767px) {
+    html {
+        font-size: 8px;
+    }
+    .teaser {
+        justify-content: center;
+        margin: auto;
+        text-align: center;
+    }
+    #button {
+        margin: auto;
+    }
 }
